@@ -80,9 +80,9 @@ span {
   color: white;
 }
 
-@media (max-width: 360px) {
+@media (max-width: 376px) {
   .input.form-control {
-    width: 280px;
+    width: 300px;
   }
   .card-body {
     width: 320px;
