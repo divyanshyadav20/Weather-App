@@ -1,0 +1,107 @@
+html body {
+  background: linear-gradient(to right, #4c565a, #aeb2b3);
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.header,
+.input,
+.search {
+  margin-bottom: 1rem;
+}
+
+.header {
+  color: white;
+}
+
+.input.form-control,
+.card-body {
+  width: 350px;
+  border-radius: 1rem;
+}
+
+.card-title.h5 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 1.2rem;
+  color: white;
+}
+
+.card-text {
+  font-size: 1.25rem;
+  padding: 0.3rem 0.3rem;
+  color: white;
+}
+
+.card-body {
+  position: relative;
+  margin-bottom: 1.5rem;
+  box-shadow: 3px 3px 10px 0 black;
+  background-image: url(./background.jpg);
+  background-size: cover;
+}
+
+span {
+  font-weight: 600;
+}
+
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+}
+
+.input.form-control:focus {
+  box-shadow: 0 0 5px 1px white;
+}
+
+.search.btn.btn-primary {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  border: 1px solid black;
+}
+.search.btn.btn-primary:hover {
+  background-color: rgb(75, 71, 71);
+}
+
+.search.btn.btn-primary:focus {
+  box-shadow: 0 0 5px 1px black;
+}
+
+.error,
+.loading {
+  color: white;
+}
+
+@media (max-width: 360px) {
+  .input.form-control {
+    width: 280px;
+  }
+  .card-body {
+    width: 320px;
+  }
+}
+
+@media (max-width: 320px) {
+  .input.form-control {
+    width: 260px;
+  }
+  .card-body {
+    width: 280px;
+  }
+}
+
+@media (max-width: 280px) {
+  .input.form-control {
+    width: 240px;
+  }
+  .card-body {
+    width: 260px;
+  }
+}
